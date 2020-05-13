@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="hiveCount:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/hiveCount_jar</output-path>
+    <root id="archive" name="hiveCount.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/src/main/scala/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>
